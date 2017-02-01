@@ -1,0 +1,322 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eaeff7"
+    tools:context=".location.MainActivitySettings">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="8dp"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textId"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="9dp"
+                    android:text="ID database"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:hint="@string/lbl_id"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLines="1" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textVehicleno"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="11dp"
+                    android:text="id"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_vehicleno"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:hint="@string/lbl_vehicleno"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:padding="8dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textDest"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="11dp"
+                    android:text="route_id"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_dest"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:hint="@string/lbl_dest"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:padding="8dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textNextStop"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="11dp"
+                    android:text="stop_id"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_nextStop"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:hint="@string/lbl_nextStop"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:padding="8dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textLate"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="11dp"
+                    android:text="delay"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_late"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:hint="@string/lbl_late"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:padding="8dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textUnvertainty"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="11dp"
+                    android:text="uncertainty"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_uncertainty"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:hint="@string/lbl_uncertainty"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:padding="8dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textStopSequence"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="11dp"
+                    android:text="stop_sequence"
+                    android:textSize="18dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:clipToPadding="false"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/editText_stopSequence"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:hint="@string/lbl_stopSequence"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:padding="8dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btn_accept_settings"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/lbl_accept"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:theme="@style/MyButton" />
+
+                <!--<TextView
+                    android:id="@+id/text_Message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

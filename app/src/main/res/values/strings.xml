@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GPS Tracking - Vehículo</string>
+    <string name="lbl_email_hint">Correo</string>
+    <string name="lbl_password_hint">Contraseña</string>
+    <string name="lbl_btn_signup">Iniciar sesión</string>
+
+    <string name="lbl_id">ID</string>
+    <string name="lbl_vehicleno">Vehicle No</string>
+    <string name="lbl_dest">Destino</string>
+    <string name="lbl_nextStop">Sig. parada</string>
+    <string name="lbl_late">Retraso</string>
+    <string name="lbl_uncertainty">Incertidumbre</string>
+    <string name="lbl_stopSequence">Secuencia</string>
+    <string name="lbl_accept">Aceptar</string>
+</resources>
