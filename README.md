@@ -1,6 +1,6 @@
 # Android - GPS Tracking
 
-This is a general purpose Android app for consuming vehicles data through next API:
+This is a general purpose Android app for consuming vehicles data through following API:
 [API - Vehicles data](https://github.com/JosephWesker/navi-api-vehicles-data)
 
 
